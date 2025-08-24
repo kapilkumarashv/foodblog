@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { foodItems } from "../foodData";
+import { foodItems } from "/foodData";
 
 export default function FoodPage() {
   const [foods, setFoods] = useState([]);
