@@ -1,4 +1,4 @@
-import { foodItems } from "../../data/foodData";
+import { foodItems } from "../../../foodData";
 
 export async function generateStaticParams() {
   return foodItems.map(i=>({ id: i.id }));
